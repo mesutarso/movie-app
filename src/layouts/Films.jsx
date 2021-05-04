@@ -1,11 +1,11 @@
 import React from "react";
 import Header from "../components/Header/Header";
 
-export default function Home() {
+export default function Films() {
   return (
     <div>
       <Header />
-      je suis là
+      les films
     </div>
   );
 }
