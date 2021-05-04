@@ -8,7 +8,7 @@ export default function NavItem({ menuItem }) {
         to={`/${
           menuItem === "Accueil"
             ? ""
-            : menuItem.toLowerCase.replace(/[^a-z0-9]/g, "-")
+            : menuItem.toLowerCase().replace(/[^a-z0-9]/g, "-")
         }`}
       >
         {menuItem}
