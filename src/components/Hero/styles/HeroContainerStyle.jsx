@@ -16,6 +16,7 @@ export const HeroContainerStyle = styled.div`
     margin: 130px;
     &__detail {
       color: #fffddd;
+      margin-bottom: 30px;
       > p span {
         margin-right: 20px;
       }
@@ -24,6 +25,7 @@ export const HeroContainerStyle = styled.div`
       font-size: 70px;
       line-height: 72px;
       font-weight: 700;
+      margin-bottom: 30px;
     }
     &__link {
       font-size: 1.7em;
@@ -31,7 +33,7 @@ export const HeroContainerStyle = styled.div`
       padding: 0.25em 1em;
       border: 2px solid #faff00;
       border-radius: 3px;
-      margin-right: 0.5rem;
+      margin-right: 20px;
       background-color: #faff00;
       text-decoration: none;
       text-transform: uppercase;
