@@ -1,21 +1,14 @@
 import React from "react";
 import LogoFile from "../../../assets/DEEP.png";
-import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { LogoStyle } from "../styles/LogoStyle";
 
 export default function Logo() {
   return (
-    <Div>
+    <LogoStyle>
       <Link to="/">
         <img src={LogoFile} alt="Logo du site" />
       </Link>
-    </Div>
+    </LogoStyle>
   );
 }
-
-const Div = styled.div`
-  width: 140px;
-  img {
-    max-width: 100%;
-  }
-`;
