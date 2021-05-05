@@ -1,10 +1,10 @@
 import React from "react";
-import Carousel from "./Layout/Carousel";
+import HeroContainer from "./Layout/HeroContainer";
 
 export default function Hero() {
   return (
     <div>
-      <Carousel />
+      <HeroContainer />
     </div>
   );
 }
