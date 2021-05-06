@@ -23,7 +23,6 @@ export const NewsletterContainerStyle = styled.div`
     margin-right: 20px;
     width: 100%;
     background-color: #faff00;
-    text-decoration: none;
     text-transform: uppercase;
     color: #010101;
     transition: all 0.3s ease-in-out;
