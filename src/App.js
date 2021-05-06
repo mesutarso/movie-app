@@ -1,7 +1,7 @@
-import Home from "./layouts/Home";
-import Films from "./layouts/Films";
-import Series from "./layouts/Series";
-import Tendances from "./layouts/Tendances";
+import Home from "./pages/Home";
+import Films from "./pages/Films";
+import Series from "./pages/Series";
+import Tendances from "./pages/Tendances";
 import { Switch, Route } from "react-router-dom";
 
 function App() {
