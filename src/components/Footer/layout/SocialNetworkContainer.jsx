@@ -8,19 +8,19 @@ export default function SocialNetworkContainer() {
       <h2>Réseaux Sociaux</h2>
       <ul>
         <li>
-          <Link>Facebook</Link>
+          <Link to="facebook.com">Facebook</Link>
         </li>
         <li>
-          <Link>Instagram</Link>
+          <Link to="instagram.com">Instagram</Link>
         </li>
         <li>
-          <Link>Twitter</Link>
+          <Link to="twitter.com">Twitter</Link>
         </li>
         <li>
-          <Link>Pinterest</Link>
+          <Link to="pinterest.com">Pinterest</Link>
         </li>
         <li>
-          <Link>Tik Tok</Link>
+          <Link to="tiktok.com">Tik Tok</Link>
         </li>
       </ul>
     </SocialNetWorkContainerStyle>
