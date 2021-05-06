@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { SocialNetWorkContainerStyle } from "../styles/SocialNetworkContainerStyle";
 
 export default function SocialNetworkContainer() {
   return (
-    <div>
+    <SocialNetWorkContainerStyle>
       <h2>Réseaux Sociaux</h2>
       <ul>
         <li>
@@ -22,6 +23,6 @@ export default function SocialNetworkContainer() {
           <Link>Tik Tok</Link>
         </li>
       </ul>
-    </div>
+    </SocialNetWorkContainerStyle>
   );
 }

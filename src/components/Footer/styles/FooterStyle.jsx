@@ -4,6 +4,6 @@ export const FooterStyle = styled.div`
   background-color: #0c0e10;
   display: flex;
   justify-content: space-around;
-  padding: 30px;
+  padding: 100px;
   color: #fff;
 `;
