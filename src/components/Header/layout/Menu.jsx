@@ -1,7 +1,7 @@
 import React from "react";
 import NavItem from "./NavItem";
 import styled from "styled-components";
-import {Menustyle} from '../styles/MenuStyle'
+import { Menustyle } from "../styles/MenuStyle";
 
 export default function Menu() {
   const menuItems = ["Accueil", "Films", "Series", "Tendances"];
@@ -13,6 +13,3 @@ export default function Menu() {
     </Menustyle>
   );
 }
-const Ul = styled.ul`
- 
-`;
