@@ -1,11 +1,11 @@
 import React from "react";
 import HeroContainer from "./Layout/HeroContainer";
-import Card from "../Container/layout/Card";
+import Container from "../Container/Container";
 export default function Hero() {
   return (
     <div>
       <HeroContainer />
-      <Card />
+      <Container />
     </div>
   );
 }
