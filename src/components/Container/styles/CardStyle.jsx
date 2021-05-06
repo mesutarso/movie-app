@@ -5,8 +5,10 @@ export const CardStyle = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 90%;
   transform: translateZ(0);
   transition: transform 0.25s ease-out;
+  backface-visibility: hidden;
   margin: 50px 0;
 
   &:hover {

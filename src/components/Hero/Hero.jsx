@@ -5,7 +5,9 @@ export default function Hero() {
   return (
     <div>
       <HeroContainer />
-      <Container />
+      <Container titre="Tendances"/>
+      <Container titre="Les Récents Films"/>
+      <Container titre="Les Récents Series"/>
     </div>
   );
 }

@@ -10,7 +10,7 @@ export default function Card() {
         src={poster}
         alt="poster du film"
         className="card__image"
-        width="200"
+        // width="200"
       />
       <h2 className="card__title">Nom du Film</h2>
       <div className="card__categories">
