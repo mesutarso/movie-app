@@ -1,5 +1,14 @@
 import React from "react";
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
+import HeroDetail from "../components/Hero/HeroDetail";
 
 export default function FilmDetail() {
-  return <div></div>;
+  return (
+    <div>
+      <Header />
+      <HeroDetail />
+      <Footer />
+    </div>
+  );
 }

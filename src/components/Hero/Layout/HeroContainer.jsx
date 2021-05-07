@@ -7,7 +7,7 @@ import poster from "../../../assets/movies assets/mainImage.jpeg";
 
 export default function HeroContainer() {
   return (
-    <HeroContainerStyle bgImage={poster}>
+    <HeroContainerStyle bgImage={poster} alignText="left">
       <div className="heroContainer">
         <div className="heroContainer__detail">
           <p>

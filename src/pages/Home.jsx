@@ -9,9 +9,9 @@ export default function Home() {
     <div>
       <Header />
       <Hero />
-      <Container titre="Tendances" />
-      <Container titre="Les Films" />
-      <Container titre="Les Series" />
+      <Container titre="Tendances" type="films" />
+      <Container titre="Les Films" type="films" />
+      <Container titre="Les Series" type="series" />
       <Footer />
     </div>
   );

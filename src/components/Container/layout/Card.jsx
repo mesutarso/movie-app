@@ -18,7 +18,7 @@ export default function Card() {
         <p>Films</p>
       </div>
       <div className="card__button">
-        <Link to="/films">Voir Plus</Link>
+        <Link to="/film-detail">Voir Plus</Link>
       </div>
     </CardStyle>
   );

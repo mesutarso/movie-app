@@ -14,7 +14,7 @@ export default function Container({ titre, type }) {
     { width: 1450, itemsToShow: 5 },
     { width: 1750, itemsToShow: 6 },
   ];
-  if (type === "Films") {
+  if (type === "films") {
     return (
       <ContainerStyle>
         <div className="container__title">
