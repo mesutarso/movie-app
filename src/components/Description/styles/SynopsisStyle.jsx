@@ -24,6 +24,9 @@ export const SynopsisStyle = styled.div`
     }
     h3 {
       margin-bottom: 50px;
+      > span {
+        color: #faff00;
+      }
     }
     p {
       margin-bottom: 50px;

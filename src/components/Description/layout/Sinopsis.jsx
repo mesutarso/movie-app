@@ -8,6 +8,9 @@ export default function Sinopsis() {
     <SynopsisStyle>
       <div className="overview">
         <h2>Synopsis</h2>
+        <h3>
+          Récommandé à : <span>90%</span>
+        </h3>
         <h3>tagline</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
