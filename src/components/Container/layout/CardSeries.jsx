@@ -1,9 +1,11 @@
 import React from "react";
 import poster from "../../../assets/movies assets/poster-films/image.png";
-import { Link, link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { CardStyle } from "../styles/CardStyle";
 
+
 export default function CardSeries() {
+ 
   return (
     <CardStyle>
       <img

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const useFetch = (endpoint) => {
+export const useMovies = (endpoint) => {
   const [item, setItem] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -8,11 +8,13 @@ const useFetch = (endpoint) => {
     const fetchData = async () => {
       const request = await fetch(endpoint);
       const response = await request.json();
-      setItem([...response]);
+      const data = await response.results;
+
+      setItem([...data]);
       setIsLoading(false);
     };
     fetchData();
-  }, [endpoint]);
+  }, []);
 
   return [item, setItem, isLoading, setIsLoading];
 };

@@ -1,6 +1,5 @@
 import React from "react";
 import NavItem from "./NavItem";
-import styled from "styled-components";
 import {Menustyle} from '../styles/MenuStyle'
 
 export default function Menu() {
@@ -13,6 +12,4 @@ export default function Menu() {
     </Menustyle>
   );
 }
-const Ul = styled.ul`
- 
-`;
+

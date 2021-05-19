@@ -6,27 +6,27 @@ export default function ActorContainer() {
   return (
     <ActorContainerStyle>
       <div className="image-card">
-        <img src={ImageActor} alt="image de l'acteur" />
+        <img src={ImageActor} alt="poster de l'acteur" />
         <h4>Nom de l'Acteur</h4>
       </div>
       <div className="image-card">
-        <img src={ImageActor} alt="image de l'acteur" />
+        <img src={ImageActor} alt="poster de l'acteur" />
         <h4>Nom de l'Acteur</h4>
       </div>
       <div className="image-card">
-        <img src={ImageActor} alt="image de l'acteur" />
+        <img src={ImageActor} alt="poster de l'acteur" />
         <h4>Nom de l'Acteur</h4>
       </div>
       <div className="image-card">
-        <img src={ImageActor} alt="image de l'acteur" />
+        <img src={ImageActor} alt="poster de l'acteur" />
         <h4>Nom de l'Acteur</h4>
       </div>
       <div className="image-card">
-        <img src={ImageActor} alt="image de l'acteur" />
+        <img src={ImageActor} alt="poster de l'acteur" />
         <h4>Nom de l'Acteur</h4>
       </div>
       <div className="image-card">
-        <img src={ImageActor} alt="image de l'acteur" />
+        <img src={ImageActor} alt="poster de l'acteur" />
         <h4>Nom de l'Acteur</h4>
       </div>
     </ActorContainerStyle>
