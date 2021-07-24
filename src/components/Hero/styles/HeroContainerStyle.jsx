@@ -12,11 +12,13 @@ export const HeroContainerStyle = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
   .heroContainer {
     margin: 130px;
     &__detail {
       color: #fffddd;
       margin-bottom: 30px;
+
       > p span {
         margin-right: 20px;
       }
@@ -56,5 +58,15 @@ export const HeroContainerStyle = styled.div`
         color: #010101;
       }
     }
+  }
+  .text-right {
+    text-align: right;
+  }
+  .icon {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
   }
 `;

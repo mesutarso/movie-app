@@ -3,22 +3,23 @@ import poster from "../../../assets/movies assets/poster-films/image.png";
 import { Link } from "react-router-dom";
 import { CardStyle } from "../styles/CardStyle";
 
-export default function Card() {
+
+export default function CardSeries() {
+ 
   return (
     <CardStyle>
       <img
         src={poster}
-        alt="poster du film"
+        alt="poster de la serie"
         className="card__image"
         // width="200"
       />
       <h2 className="card__title">Nom du Film</h2>
       <div className="card__categories">
-        <p>Action</p>
-        <p>Films</p>
+        <p>2 Saisons</p>
       </div>
       <div className="card__button">
-        <Link to="/film-detail">Voir Plus</Link>
+        <Link to="/series">Voir Plus</Link>
       </div>
     </CardStyle>
   );
